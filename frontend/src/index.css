@@ -1,0 +1,71 @@
+/* ── copied directly from your original style.css ────────────────────────── */
+div {
+    text-align: center;
+    width: fit-content;
+    padding: 0px;
+    margin: 0 auto;
+    display: block;
+}
+
+.mainbuttons {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#patientadd:hover {
+    background-color: #357abd;
+}
+
+#patientadd:active {
+    background-color: #2a5f8f;
+}
+
+table {
+    background-color: beige;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    margin: 5px auto;
+    text-align: center;
+}
+
+#pool {
+    margin: 10px auto;
+}
+
+.sessinfo {
+    text-align: center;
+}
+
+/* ── small addition: stop React root div from breaking your centering ─────── */
+#root {
+    text-align: center;
+}
+
+button {
+    margin-left: 5px;
+}
+
+table {
+
+    margin: 15px auto
+}
+
+.fieldselector {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#dateinputforfields {
+    display: block;
+}
+
+#getdocid {
+    display: block
+}
